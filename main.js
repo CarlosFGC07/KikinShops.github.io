@@ -1,4 +1,9 @@
 function newImage(){
-    element = document.getElementById ("deanFromHell"); 
-    element.src="images/musicDime1"
+    var image = document.getElementById ("deanFromHell"); 
+    console.log(image.src);
+    if (image.src.includes("musicDime.png")) {
+        image.src = "Images/musicDime1. jpg";
+    } else {
+        image.src = "Images/musicDime1.png";
+    }
 }
