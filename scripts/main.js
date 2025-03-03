@@ -1,4 +1,4 @@
-function newImage(){
+function Dean(){
     var image = document.getElementById ("deanFromHell"); 
     console.log(image.src);
     if (image.src.includes("musicDime.png")) {
