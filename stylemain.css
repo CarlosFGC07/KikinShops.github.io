@@ -72,3 +72,11 @@
     margin: 20px;
     height: 40px;
 }
+
+.footer{
+    background-color: #b4b4b4;;
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
